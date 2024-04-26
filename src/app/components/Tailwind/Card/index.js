@@ -31,7 +31,7 @@ const Card = ({
 
   return (
     <div
-      className={`container-card relative rounded-2xl w-full h-full bg-red-500 ${cardOptions}`}
+      className={`container-card relative rounded-2xl w-full h-full ${cardOptions}`}
     >
       {children}
       {bgImg && (
